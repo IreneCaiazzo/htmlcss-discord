@@ -12,17 +12,17 @@
 }
 
 .section-feature .image {
-	background-color: aquamarine;
+	/* background-color: aquamarine; */
 	min-height: 250px;
 }
 
 .section-feature .text {
-	background-color: coral;
+	/* background-color: white; */
 	min-height: 250px;
 }
 
 .section-full .container {
-	background-color: green;
+	/* background-color: green; */
 	min-height: 500px;
 }
 

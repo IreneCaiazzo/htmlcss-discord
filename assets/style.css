@@ -73,14 +73,23 @@ a{
 .jumbo {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
-	background-image: url("assets/img/jumbo.png");
+	background-image: url("img/jumbo.png");
+	background-size: cover;
+}
+
+h1{
+	margin-bottom: 1em;
+	font-weight: bold;
 }
 
 .nav-title{
 	margin-bottom: 1em;
 }
 
-p{
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin-bottom: 1em;
 }
 
@@ -114,6 +123,11 @@ main section {
 
 .section-feature.reverse .container {
 	flex-direction: row-reverse;
+}
+
+.section-full .container{
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .bkg-gray {
