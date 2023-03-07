@@ -128,6 +128,7 @@ main section {
 .section-full .container{
 	display: flex;
 	flex-direction: column-reverse;
+	align-items: center;
 }
 
 .bkg-gray {
@@ -140,6 +141,24 @@ main section {
 
 .section-feature .text {
 	flex: 0 0 40%;
+}
+
+h2{
+	margin-bottom: 1em;
+}
+
+.download-bottompage{
+	width: 150px;
+	background-color: rgb(121, 131, 245);
+	font-weight: bold;
+	border: none;
+	padding: 1em;
+	margin-left: 100px;
+	border-radius: 25px;
+}
+
+.last-section{
+	max-width: 800px;
 }
 
 /* footer */
