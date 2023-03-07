@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+font-family: 'Whitney', sans-serif;
+font-family: 'Whitney Semibold', sans-serif;
+font-family: 'Whitney Book', sans-serif;
+font-family: 'Whitney Light', sans-serif;
+
 /* general styles */
 
 .container {
@@ -36,6 +41,20 @@
 .navbar .container > *:hover {
 	background-color: brown;
 	cursor: pointer;
+}
+
+a{
+	margin-right: 5em;
+	color: white;
+	text-decoration: none;
+}
+
+.login{
+	background-color: white;
+	border-radius: 5px;
+	height: 3em;
+	padding-inline: 1em;
+
 }
 
 .jumbo .content {
