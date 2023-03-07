@@ -29,7 +29,7 @@
 footer .footer-column {
 	min-height: 300px;
 }
-
+/* 
 footer .column-socials {
 	background-color: pink;
 }
@@ -37,7 +37,7 @@ footer .column-socials {
 footer .column-links {
 	background-color: darkviolet;
 	border: 2px dashed white;
-}
+} */
 
 footer .footer-bottom {
 	background-color: yellow;

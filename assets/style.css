@@ -188,3 +188,41 @@ footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
 }
+
+.footer-title{
+	color: rgb(37, 94, 233);
+	font-weight: bold;
+}
+
+.flag{
+	max-width: 30px;
+}
+
+.footer-language{
+	color: white;
+}
+
+.container-social{
+	display: flex;
+	color: white;
+}
+
+.social{
+	margin: .7em;
+}
+
+ul{
+	list-style: none;
+}
+
+.ul-title{
+	color: rgb(37, 94, 233);
+}
+
+li{
+	color: white;
+	margin-bottom: 1em;
+}
+footer{
+	background-color: rgb(35, 39, 42);
+}
